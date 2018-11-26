@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+}
+body{
+	background: url("images/beach.JPG")no-repeat center fixed;
+	background-size: cover;
+   	font-family: 'Anonymous Pro';
+}
+.background{
+	background-color: rgba(25,25,25,0.4);
+}
+a, a:hover {
+	text-decoration:none;
+	color: black;
+}
+button, button:active, button:hover{
+	outline: none;
+}
+img.element.style{
+	display: block;
+}
+.fas.fa-arrow-circle-right {
+	font-size: 2.5em;
+}
+.container-fluid{
+	width: 100%;
+	height: 100%;
+}
+.topRow{
+	padding-top: 8vw;
+}
+.simpleSelfie{
+	display: block;
+	width: 50vw;
+	margin-left: auto;
+	margin-right: auto;
+}
+#stickFigure{
+	margin-left: auto;
+	margin-right: auto;
+}
+#selfiePicture{
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px black solid;
+	border-radius: 50%;
+	display: none;
+	margin-bottom: 8vw;
+}
+
+#startBtn{
+	margin-top: 20vw;
+	position: absolute;
+	display: none;
+	font-weight: bold;
+	border: none;
+	color: rgb(250,250,250);
+	font-size: 5em;
+	background: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#textPopUp1, #textPopup2, #textPopUp3, #textPopUp4, #textPopUp5{
+	display: none;
+}
+
+.popUp{
+	margin-top: 15vw;
+	margin:auto;
+	color: black;
+	width: 70vw;
+	max-height: 50vw;
+	background: rgba(250,250,250,0.9);
+	display: none;
+	border: 3px black solid;
+	overflow: scroll;
+	word-wrap: break-word;
+	text-align: center;
+}
+#facts{
+	position: absolute;
+	top:0vw;
+	left: 0vw;
+	height:99%;
+	width:99%;
+	color: black;
+	background: rgb(250,250,250);
+	display: none;
+	border: 3px black solid;
+	margin:auto;
+	overflow: scroll;
+	word-wrap: break-word;
+}
+li>a:hover{
+	text-decoration: underline;
+}
+
+#factText{
+	position: absolute;
+	top: 15vw;
+	left: 2vw;
+}
+#printButton{
+	position: sticky;
+	z-index:1;
+	top:2vw;
+	left: 25%;
+}
+
+.circle{
+	width:40vw;
+	object-fit: fill;
+}
+.cont{
+	position: relative;
+    text-align: center;
+    color: black;
+}
+.textImage{
+	font-weight: bold;
+	font-size: 1.3em;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#close, #close2{
+	position: sticky;
+	z-index:1;
+	top:3vw;
+	left: 2vw;
+    width: 6vw;
+    height: 6vw;
+  	font-size: 1em;
+  	line-height: 1em;
+  	text-align: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #ffffe6;
+}
+#name{
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.megaTitle{
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+}
+.title{
+	font-size: 1.2em;
+	text-align: center;
+	font-weight: bold;
+}
+.subTitle{
+	text-align: center;
+}
+.subTitle#edu{
+	text-align: center;
+	font-weight: bold;
+}
+#educationText{
+	position:absolute;
+	top: 10vw;
+	margin: auto;
+	text-align: left;
+	display: none;
+}
+#workText{
+	position:absolute;
+	top: 10vw;
+	margin: auto;
+	text-align: left;
+	display: none;
+}
+#presText{
+	position:absolute;
+	top: 10vw;
+	margin: auto;
+	display: none;
+}
+#contactText{
+	font-size: 1em;
+	margin: auto;
+	position:absolute;
+	display: none;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	text-align: center;
+}
+
+@media print {
+
+  	.container {
+    	width: auto;
+    	text-align: left;
+    }
+
+    li>a{
+	text-decoration: none;
+	}
+
+	#facts {
+		display: block;
+		top:0vw;
+		color: black;
+		margin:auto;
+		text-align: left;
+	}
+	#factText{
+		top: 4vw;
+	}
+	#printButton, #close2{
+		display: none;
+	}
+
+	.title, .subTitle, .megaTitle{
+		text-align: center
+	}
+
+	a {
+		text-decoration: none;
+	}
+	
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  
+	.simpleSelfie{
+		width: 20vw;
+		margin: auto;
+	}
+	#facts{
+	position: absolute;
+	top:0vw;
+	left: 0vw;
+	height: 200vw;
+	width: 100vw;
+	color: black;
+	}
+	#factText{
+	position: absolute;
+	top: 10vw;
+	left: 2vw;
+	}
+	#printButton{
+	position: sticky;
+	z-index:1;
+	top:2vw;
+	left: 39vw;
+	}
+	.topRow{
+	padding-top: 2vw;
+	}
+	.simpleSelfie{
+	width: 40vw;
+	margin: auto;
+	}
+	#selfiePicture{
+	margin-bottom: 1vw;
+	}
+	#startBtn{
+	margin-top: 15vw;
+	}
+	.popUp{
+	margin-top: 6vw;
+	}
+}
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {
+
+	.simpleSelfie{
+		width: 20vw;
+		margin: auto;
+	}
+	#facts{
+	position: absolute;
+	top:0vw;
+	left: 0vw;
+	height: 200vw;
+	width: 100vw;
+	color: black;
+	}
+	#factText{
+	position: absolute;
+	top: 7vw;
+	left: 2vw;
+	}
+	#printButton{
+	top:2vw;
+	left: 39vw;
+	}
+	.topRow{
+	padding-top: 2vw;
+	}
+	.simpleSelfie{
+	width: 30vw;
+	margin: auto;
+	}
+	#selfiePicture{
+	margin-bottom: 1vw;
+	}
+	#startBtn{
+	margin-top: 15vw;
+	}
+	.popUp{
+	margin-top: 5vw;
+	}
+}
+/*here move everything, the text divs on the side and the img on the other side*/
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+	.topRow{
+	padding-top: 1;
+	}
+
+	.simpleSelfie{
+		width: 25vw;
+		margin: auto;
+	}
+	#facts{
+		position: absolute;
+		top:0vw;
+		left: 0vw;
+		height: 200vw;
+		width: 100vw;
+		color: black;
+	}
+	#factText{
+		position: absolute;
+		top: 7vw;
+		left: 2vw;
+	}
+	#close, #close2{
+		position: sticky;
+		z-index:1;
+		top:1vw;
+		left: 1vw;
+    	width: 3vw;
+    	height: 3vw;
+  		font-size: 1em;
+  		line-height: 1em;
+
+	}
+	#printButton{
+		position: sticky;
+		z-index:1;
+		top:2vw;
+		left:43vw;
+	
+	}
+	#startBtn{
+	margin-top: 15vw;
+	}
+	.popUp{
+	margin-top: 3vw;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.topRow{
+	padding-top: 1;
+	}
+
+	.simpleSelfie{
+		width: 20vw;
+		margin: auto;
+	}
+	#startBtn{
+	margin-top: 10vw;
+	}
+	#factText{
+		position: absolute;
+		top: 7vw;
+		left: 2vw;
+	}
+
+
+}
+
+
