@@ -12,6 +12,10 @@ body{
 a, a:hover {
 	text-decoration:none;
 	color: black;
+	
+}
+a:hover{
+	font-weight: bold;
 }
 button, button:active, button:hover{
 	outline: none;
