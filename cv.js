@@ -38,7 +38,7 @@ $( document ).ready(function() {
 	$(".tp1").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/leaves.png)no-repeat top fixed");
+		$("body").css("background", "url(images/leaves2.jpg)no-repeat top fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		/*crop image and chose top instead*/
@@ -59,7 +59,7 @@ $( document ).ready(function() {
 	$(".tp2").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/wTree.jpeg)no-repeat bottom fixed");
+		$("body").css("background", "url(images/vatten.jpg)no-repeat bottom fixed");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
 		$(".popUp").css("display", "block");
@@ -118,7 +118,7 @@ $( document ).ready(function() {
 	$(".tp5").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/grizzly.jpg)no-repeat center fixed");
+		$("body").css("background", "url(images/grizzly_50.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
@@ -158,7 +158,7 @@ $( document ).ready(function() {
 	$(".tp7").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/grey.jpg)no-repeat center fixed");
+		$("body").css("background", "url(images/Elsa.png)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
@@ -198,7 +198,7 @@ $( document ).ready(function() {
 	$(".tp9").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/skyBerry.jpg)no-repeat center fixed");
+		$("body").css("background", "url(images/mask2.png)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
