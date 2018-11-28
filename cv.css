@@ -14,12 +14,8 @@ a{
 	color: black;
 	
 }
-a:hover{
-	color: black;
-	font-weight: bold;
-	text-decoration: underline;
-}
-button, button:active, button:hover{
+
+button, button:active{
 	outline: none;
 }
 img.element.style{
@@ -29,9 +25,7 @@ img.element.style{
 	font-size: 2.5em;
 	transition: ease-in-out, font-size .35s ease-in-out;
 }
-.fas.fa-arrow-circle-right:hover {
-	font-size: 3.5em;
-}
+
 .container-fluid{
 	width: 100%;
 	height: 100%;
@@ -47,9 +41,7 @@ img.element.style{
 	-webkit-transition: width 0.3s;
 	transition: width 0.3s;
 }
-.simpleSelfie:hover, .simpleSelfie:focus{
-	width: 52vw;
-}
+
 #stickFigure{
 	margin-left: auto;
 	margin-right: auto;
@@ -79,9 +71,7 @@ img.element.style{
 /*    -webkit-transition: width 0.3s;
 	transition: width 0.3s;*/
 }
-#startBtn:hover, #startBtn:focus{
-	font-size: 7em;
-}
+
 #textPopUp1, #textPopup2, #textPopUp3, #textPopUp4, #textPopUp5{
 	display: none;
 }
@@ -98,7 +88,7 @@ img.element.style{
 	overflow: scroll;
 	word-wrap:normal;
 	text-align: center;
-}
+	}
 #facts{
 	position: absolute;
 	top:0vw;
@@ -113,9 +103,7 @@ img.element.style{
 	overflow: scroll;
 	word-wrap: break-word;
 }
-li>a:hover{
-	text-decoration: underline;
-}
+
 
 #factText{
 	position: absolute;
@@ -255,9 +243,6 @@ ul{
 	width: 40vw;
 	margin: auto;
 	}
-	.simpleSelfie:hover{
-	width: 42vw;
-	}
 	#facts{
 	position: absolute;
 	top:0vw;
@@ -294,6 +279,26 @@ ul{
 /* Medium devices (tablets, 768px and up)*/
 
 @media (min-width: 768px) {
+	li>a:hover{
+	text-decoration: underline;
+	}
+	#startBtn:hover, #startBtn:focus{
+	font-size: 7em;
+	}
+	.simpleSelfie:hover, .simpleSelfie:focus{
+	width: 32vw;
+	}
+	button, button:active, button:hover{
+	outline: none;
+	}
+	a:hover{
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	}
+	.fas.fa-arrow-circle-right:hover {
+	font-size: 3.5em;
+	}
 
 	.simpleSelfie{
 		width: 20vw;
@@ -322,9 +327,6 @@ ul{
 	.simpleSelfie{
 	width: 30vw;
 	margin: auto;
-	}
-	.simpleSelfie:hover{
-	width: 32vw;
 	}
 	#selfiePicture{
 	margin-bottom: 1vw;
