@@ -18,7 +18,7 @@ $( document ).ready(function() {
 	$("#startBtn").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/berriesLeaves.jpeg)no-repeat center fixed");
+		$("body").css("background", "url(images/berries.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
@@ -99,7 +99,7 @@ $( document ).ready(function() {
 	$(".tp4").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/cups4.png)no-repeat center fixed");
+		$("body").css("background", "url(images/cupsComp.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
