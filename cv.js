@@ -38,7 +38,7 @@ $( document ).ready(function() {
 	$(".tp1").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/leaves2.jpg)no-repeat center fixed");
+		$("body").css("background", "url(images/redBerries.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		/*crop image and chose top instead*/

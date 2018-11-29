@@ -81,12 +81,14 @@ img.element.style{
 	display: none;
 }
 
+
 .popUp{
 	margin-top: 15vw;
 	margin:auto;
+	padding: 2vw;
 	color: black;
-	width: 80vw;
-	max-height: 50vw;
+	width: 100vw;
+	max-height: 80vw;
 	background: rgba(250,250,250,0.9);
 	display: none;
 	border: 3px black solid;
