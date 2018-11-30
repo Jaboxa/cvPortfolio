@@ -159,7 +159,7 @@ $( document ).ready(function() {
 	$(".tp7").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/vatten.jpg)no-repeat center fixed");
+		$("body").css("background", "url(images/leaves2.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
