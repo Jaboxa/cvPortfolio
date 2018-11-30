@@ -59,7 +59,7 @@ $( document ).ready(function() {
 	$(".tp2").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/vatten.jpg)no-repeat fixed");
+		$("body").css("background", "url(images/train.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*teh image is upside down, try reverse it and save*/
 		$("#startBtn").css("display", "none");
@@ -79,7 +79,7 @@ $( document ).ready(function() {
 	$(".tp3").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/train.jpg)no-repeat center fixed");
+		$("body").css("background", "url(images/Elsa.png)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
@@ -119,7 +119,7 @@ $( document ).ready(function() {
 	$(".tp5").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/grizzly_50.jpg)no-repeat center fixed");
+		$("body").css("background", "url(images/vatten.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
@@ -159,7 +159,7 @@ $( document ).ready(function() {
 	$(".tp7").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/Elsa.png)no-repeat center fixed");
+		$("body").css("background", "url(images/vatten.jpg)no-repeat center fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
@@ -179,7 +179,7 @@ $( document ).ready(function() {
 	$(".tp8").click(function(){
 	 	$("#stickFigure").css("display", "none");
 		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/bg_waterlogged_land.JPG)no-repeat center fixed");
+		$("body").css("background", "url(images/mask2.png)no-repeat top fixed");
 		$("body").css("background-size", "cover");
 		/*open textbox, and the next click is going to be on that*/
 		$("#startBtn").css("display", "none");
@@ -194,30 +194,9 @@ $( document ).ready(function() {
 		$("#textPopUp8").css("display", "none");
 		$("#textPopUp9").css("display", "block");
 		$("#textPopUp10").css("display", "none");
-	});
+	}); 	
 
 	$(".tp9").click(function(){
-	 	$("#stickFigure").css("display", "none");
-		$("#selfiePicture").css("display", "block");
-		$("body").css("background", "url(images/mask2.png)no-repeat center fixed");
-		$("body").css("background-size", "cover");
-		/*open textbox, and the next click is going to be on that*/
-		$("#startBtn").css("display", "none");
-		$(".popUp").css("display", "block");
-		$("#textPopUp1").css("display", "none");
-		$("#textPopUp2").css("display", "none");
-		$("#textPopUp3").css("display", "none");
-		$("#textPopUp4").css("display", "none");
-		$("#textPopUp5").css("display", "none");
-		$("#textPopUp6").css("display", "none");
-		$("#textPopUp7").css("display", "none");
-		$("#textPopUp8").css("display", "none");
-		$("#textPopUp9").css("display", "none");
-		$("#textPopUp10").css("display", "block");
-
-	});	 	
-
-	$(".tp10").click(function(){
 	 	$("#stickFigure").css("display", "block");
 		$("#selfiePicture").css("display", "none");
 		$("body").css("background", "url(images/beach.JPG)no-repeat bottom fixed");

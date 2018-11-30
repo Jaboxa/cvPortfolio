@@ -87,7 +87,7 @@ img.element.style{
 	margin:auto;
 	padding: 2vw;
 	color: black;
-	width: 100vw;
+	max-width: 100vw;
 	max-height: 80vw;
 	background: rgba(250,250,250,0.9);
 	display: none;
@@ -277,7 +277,7 @@ ul{
 	margin-bottom: 1vw;
 	}
 	#startBtn{
-	margin-top: 15vw;
+	margin-top: 20vw;
 	}
 	.popUp{
 	margin-top: 6vw;
@@ -395,6 +395,8 @@ ul{
 	}
 	.popUp{
 	margin-top: 3vw;
+	width: 60vw;
+	padding: 1vw;
 	}
 }
 
@@ -405,11 +407,12 @@ ul{
 	}
 
 	.simpleSelfie{
-		width: 20vw;
+		width: 15vw;
 		margin: auto;
+		margin-bottom: 4vw;
 	}
 	.simpleSelfie:hover{
-		width: 22vw;
+		width: 17vw;
 	}
 	#startBtn{
 	margin-top: 10vw;
