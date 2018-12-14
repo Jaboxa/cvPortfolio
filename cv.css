@@ -14,6 +14,62 @@ body{
 .background{
 	background-color: rgba(25,25,25,0.4);
 }
+
+#b1{
+	background: url("images/beach.JPG")no-repeat center fixed;
+	background-size: cover;
+	-webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+
+}
+}
+#b2{
+	background: url("images/bg_winter_lake.JPG")no-repeat center fixed;
+	background-size: cover;
+	-webkit-transition: opacity 1s ease-out;
+    transition: opacity 1s ease-out;
+	
+	 
+
+}
+/*next time make it smooth*/
+#b3{
+	background: url("images/berries.jpg")no-repeat center fixed;
+	background-size: cover;
+}
+#b4{
+	background: url("images/redBerries.jpg")no-repeat center fixed;
+	background-size: cover;
+}
+#b5{
+	background: url("images/train.jpg")no-repeat center fixed;
+	background-size: cover;
+}
+#b6{
+	background: url("images/Elsa.png")no-repeat center fixed;
+	background-size: cover;
+}
+#b7{
+	background: url("images/cupsComp.jpg")no-repeat center fixed;
+	background-size: cover;
+}
+#b8{
+	background: url("images/vatten.jpg")no-repeat center fixed;
+	background-size: cover;
+}
+#b9{
+	background: url("images/mask1.png")no-repeat center fixed;
+	background-size: cover;
+}
+#b10{
+	background: url("images/leaves2.jpg")no-repeat center fixed;
+	background-size: cover;
+}
+#b11{
+	background: url("images/mask2.png")no-repeat center fixed;
+	background-size: cover;
+}
+
 a{
 	text-decoration:none;
 	color: black;
