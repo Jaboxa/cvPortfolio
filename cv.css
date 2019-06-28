@@ -1,6 +1,7 @@
 html{
 	overscroll-behavior-x: none;
 	overscroll-behavior-y:none;
+	font-size: calc(1em + 1vw) 
 }
 
 * {
@@ -75,6 +76,10 @@ a{
 	color: black;
 	
 }
+h1 { font-size: 2.5em }
+h2 { font-size: 2em }
+h3 { font-size: 1.5em }
+
 .bold{
 	font-style: bold;
 	font-weight: 800;
@@ -105,6 +110,21 @@ img.element.style{
 	margin-right: auto;
 	-webkit-transition: width 0.3s;
 	transition: width 0.3s;
+}
+.cvImage{
+	background-image: url("images/JessikaTibblinS.jpg");
+	margin-left: auto;
+	margin-right: auto;
+	border: 3px black solid;
+	border-radius: 50%;
+	margin-top:3vw;
+	margin-bottom: 2vw;
+	width: 20vw;
+}
+.nameTop{
+	margin-top:100px;
+}
+.jobTitleTop{
 }
 
 #stickFigure{
@@ -154,7 +174,7 @@ img.element.style{
 	border: 3px black solid;
 	overflow: scroll;
 	word-wrap:normal;
-	text-align: center;
+	/*text-align: center;*/
 	}
 #facts{
 	position: absolute;
@@ -232,10 +252,10 @@ img.element.style{
 	font-weight: bold;
 }
 .subTitle{
-	text-align: center;
+	/*text-align: center;*/
 }
 .subTitle#edu{
-	text-align: center;
+	/*text-align: center;*/
 	font-weight: bold;
 }
 #educationText{
@@ -267,41 +287,53 @@ img.element.style{
 }
 ul{
 	list-style-type: none;
-	text-align: center;
+	margin-left:-40px;
+	/*text-align: center;*/
 }
 
 @media print {
-
   	.container {
     	width: auto;
     	text-align: left;
     }
+	.nameTop{
+		margin-top:100px;
+		vertical-align: center;
+	}
+    h1{
+    	font-size: 50px;
+    }
 
+    .col-lg-4 {
+        width: 40%;
+	}
+	.col-lg-8 {
+        width: 60%;
+	}
+	p{
+		font-size: 20px;
+	}
+	a {
+		text-decoration: none;
+	}
+	.nameTop{
+		margin-top: 100px;
+	}
+	li{
+		font-size: 20px;
+	}
     li>a{
 	text-decoration: none;
-	}
-
-	#facts {
-		display: block;
-		top:0vw;
-		color: black;
-		margin:auto;
-		text-align: left;
-	}
-	#factText{
-		top: 4vw;
 	}
 	#printButton, #close2{
 		display: none;
 	}
-
-	.title, .subTitle, .megaTitle{
-		text-align: center
-	}
-
-	a {
-		text-decoration: none;
-	}
+	.nameTop{
+	margin-top:0vw;
+}
+/*	.cvImage{
+		display: none;
+	}*/
 	
 }
 /* Small devices (landscape phones, 576px and up)*/
